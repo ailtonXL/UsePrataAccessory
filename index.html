@@ -17,12 +17,9 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="assets/motion/motion.css">
-  <script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
-  <script type="module" src="assets/motion/motion.js"></script>
-  <script type="module" src="assets/moments/moments.js"></script>
 </head>
 <body>
-  <!-- Product · cinema-frame hero · brand green · Instrument Serif / DM Sans · word-highlight. -->
+  <!-- Product · cinema-frame hero · brand green · Instrument Serif / DM Sans. -->
   <a class="skip" href="#principal">Ir para o conteúdo</a>
   <header class="header">
     <div class="wrap nav">
@@ -35,10 +32,10 @@
     </div>
   </header>
 
-  <main id="principal">
-    <section class="hero hero--film" id="inicio" data-enter data-enter-whole aria-labelledby="hero-title">
+  <main id="principal" tabindex="-1">
+    <section class="hero hero--film" id="inicio" aria-labelledby="hero-title">
       <div class="wrap hero-wrap">
-        <div class="hero-image" data-enter-media>
+        <div class="hero-image">
           <img src="assets/hero.webp" alt="Mulher usando brinco, anel e colar prateados" fetchpriority="high" width="764" height="508">
         </div>
         <div class="hero-copy">
@@ -56,15 +53,15 @@
           <p>Escolha uma categoria e consulte os modelos disponíveis pelo Instagram.</p>
         </div>
         <div class="cards">
-          <a class="card m-zoom" href="https://ig.me/m/useprataaccessory" aria-label="Consultar brincos pelo Instagram">
+          <a class="card" href="https://ig.me/m/useprataaccessory" aria-label="Consultar brincos pelo Instagram">
             <div class="photo"><img src="assets/brincos.webp" alt="Argolas prateadas sobre linho" width="764" height="508" loading="lazy"></div>
             <div class="card-name"><h3>Brincos</h3><span aria-hidden="true">↗</span></div>
           </a>
-          <a class="card m-zoom" href="https://ig.me/m/useprataaccessory" aria-label="Consultar anéis pelo Instagram">
+          <a class="card" href="https://ig.me/m/useprataaccessory" aria-label="Consultar anéis pelo Instagram">
             <div class="photo"><img src="assets/aneis.webp" alt="Anéis prateados sobre uma pedra" width="764" height="508" loading="lazy"></div>
             <div class="card-name"><h3>Anéis</h3><span aria-hidden="true">↗</span></div>
           </a>
-          <a class="card m-zoom" href="https://ig.me/m/useprataaccessory" aria-label="Consultar colares pelo Instagram">
+          <a class="card" href="https://ig.me/m/useprataaccessory" aria-label="Consultar colares pelo Instagram">
             <div class="photo"><img src="assets/colares.webp" alt="Colar com pingente prateado sobre cetim" width="764" height="508" loading="lazy"></div>
             <div class="card-name"><h3>Colares</h3><span aria-hidden="true">↗</span></div>
           </a>
@@ -72,11 +69,11 @@
       </div>
     </section>
 
-    <section class="about" id="sobre" aria-labelledby="sobre-title" data-moment="word-highlight">
+    <section class="about" id="sobre" aria-labelledby="sobre-title">
       <div class="wrap about-wrap">
         <div>
           <h2 id="sobre-title">A Use Prata</h2>
-          <p class="mo-wh__text statement">Somos uma loja online de João Pessoa e oferecemos <strong>garantia vitalícia</strong> nas nossas joias.</p>
+          <p class="statement">Somos uma loja online de João Pessoa e oferecemos <strong>garantia vitalícia</strong> nas nossas joias.</p>
         </div>
         <div class="contact">
           <p>Consulte preços, disponibilidade e condições da garantia pelo Instagram.</p>
